@@ -8,6 +8,7 @@
 #define ID_TEX_ENEMY 10
 #define ID_TEX_MISC 20
 #define ID_TEX_MAP 30
+#define ID_TEX_PLANT_RED 50
 
 
 #define OBJECT_TYPE_MARIO	0
