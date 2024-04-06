@@ -6,12 +6,13 @@ cloud.txt
 brick.txt
 map.txt
 goomba.txt
+plant_red.txt
 #
 [MAP]
 99	1408	216
 [OBJECTS]
 # type	x	y	extra_settings per object type
-# type: 0 = Mario , 1 = Brick, 2 = Goomba, 3 = Koopas
+# type: 0 = Mario , 1 = Brick, 2 = Goomba, 3 = Koopas, 7 = PlantRed
 # See OBJECT_TYPE constants in AssetIDs.h
 
 # MARIO
@@ -50,6 +51,9 @@ goomba.txt
 #Box
 6 	250	393	25	50	2	52000	52000	52000
 6 	285	373	25	80	2	52000	52000	52000
+
+#Plant Red
+7	367	383
 
 
 #Portal 

@@ -1,4 +1,4 @@
-# id	left	top	right	bottom	texture_id
+# id	left	topright	bottom	texture_id
 [SPRITES]
 
 #########CÂY BẮN ĐẠN ĐỎ#########

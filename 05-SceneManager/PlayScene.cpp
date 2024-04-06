@@ -11,6 +11,7 @@
 #include "Platform.h"
 #include "Map.h"
 #include "Box.h"
+#include "PlantRed.h"
 
 #include "SampleKeyEventHandler.h"
 
@@ -150,6 +151,7 @@ void CPlayScene::_ParseSection_OBJECTS(string line)
 	case OBJECT_TYPE_GOOMBA: obj = new CGoomba(x,y); break;
 	case OBJECT_TYPE_BRICK: obj = new CBrick(x,y); break;
 	case OBJECT_TYPE_COIN: obj = new CCoin(x, y); break;
+	case OBJECT_TYPE_PLANT_RED: obj = new CPlantRed(x, y); break;
 
 	case OBJECT_TYPE_PLATFORM:
 	{
